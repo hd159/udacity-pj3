@@ -49,8 +49,8 @@ def unauthorized(error):
                 {
                     "success": False, 
                     "error": 401, 
-                    "message": "bad request"
+                    "message": "unauthorization"
                 }
             ),
-        400,
+        401,
     )
